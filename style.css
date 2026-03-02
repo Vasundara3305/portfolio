@@ -1,17 +1,102 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body */
 body {
-    text-align: center;
-    font-family: Arial;
-    background-color: #f4f4f4;
+    background: #f8f9fc;
+    color: #333;
+    line-height: 1.6;
 }
 
-h1 {
-    color: darkblue;
-}
-
-button {
-    padding: 8px 15px;
-    background-color: orange;
-    border: none;
+/* Header */
+header {
+    background: #111827;
     color: white;
-    cursor: pointer;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 5px solid #2563eb;
+    object-fit: cover;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header p {
+    color: #9ca3af;
+    margin-top: 10px;
+}
+
+/* Sections */
+section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #111827;
+    border-left: 5px solid #2563eb;
+    padding-left: 10px;
+}
+
+/* Card Design */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+/* Skills */
+.skills span {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+/* Links */
+.links a {
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.links a:hover {
+    color: #111827;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111827;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
 }
